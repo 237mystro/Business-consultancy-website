@@ -1,0 +1,99 @@
+.calender-container{
+    width: 700px;
+    margin: 15px auto;
+
+}
+.month-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+ 
+}
+#month-year{
+    color: black;
+}
+#event-details{
+    color: black;
+}
+.weekdays{
+    display: flex;
+    border: 1px solid #032b44;
+}
+#prev-month, #next-month{
+    border: 1px solid;
+    background-color: #032b44;
+    height: 20px;
+    width: 100px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    border-radius: 100px;
+
+}
+.weekdays div{
+    width: 16%;
+    text-align: center;
+    border: 1px solid #032b44;
+    color: black;
+}
+#calender-days{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    color: black;
+
+}
+#calender-days div{
+    height: 70px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1px solid #032b44;
+    color: black;
+}
+.weekdays div{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+.weekdays div:hover{
+    background-color: #032b44;
+    color: white;
+}
+.schedule-modal input[type="text"]{
+    background-color: #ffffff;
+    height: 30px;
+    width: 200px;
+    border: 1px solid black;
+    color: black;
+}
+#schedule-confirm{
+    background-color: #032b44;
+    width: 90px;
+    height: 30px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+#schedule-cancel{
+    background-color: #b10909;
+    width: 90px;
+    height: 30px;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+#event-details{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: sans-serif;
+    align-items: center;
+    height: max-content;
+    color: black;
+}
